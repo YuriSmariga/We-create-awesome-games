@@ -1,0 +1,221 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* end reset browser styles */
+
+@font-face {
+	font-family: 'MyriadArabic';
+	src: url('fonts/MyriadArabic-BoldIt.eot');
+	src: local('☺'), url('fonts/MyriadArabic-BoldIt.woff') format('woff'), url('fonts/MyriadArabic-BoldIt.ttf') format('truetype'), url('fonts/MyriadArabic-BoldIt.svg') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'MyriadArabic';
+	src: url('fonts/MyriadArabic-Bold.eot');
+	src: local('☺'), url('fonts/MyriadArabic-Bold.woff') format('woff'), url('fonts/MyriadArabic-Bold.ttf') format('truetype'), url('fonts/MyriadArabic-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadArabic';
+	src: url('fonts/MyriadArabic-Regular.eot');
+	src: local('☺'), url('fonts/MyriadArabic-Regular.woff') format('woff'), url('fonts/MyriadArabic-Regular.ttf') format('truetype'), url('fonts/MyriadArabic-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadArabic';
+	src: url('fonts/MyriadArabic-It.eot');
+	src: local('☺'), url('fonts/MyriadArabic-It.woff') format('woff'), url('fonts/MyriadArabic-It.ttf') format('truetype'), url('fonts/MyriadArabic-It.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+body {
+	background: grey;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*__________________BANNER______________*/
+.banner {
+	width: 1200px;
+	height: 654px;
+	margin: 0 auto;
+	background: url("images/bg_banner.png");
+	position: relative;
+}
+.intro {
+	position: absolute;
+	top: 70px;
+	left: 46px;
+	line-height: 2.5em;
+	letter-spacing: -.1em;
+}
+.intro1, .intro2 {
+	font-family: MydriadArabic, Arial;
+	font-size: 55px;
+	color:white;	
+}
+.yellow {
+	color:yellow;
+}
+.mainNav {
+	position: absolute;
+	top:220px;
+}
+.mainNav ul li {
+	display: inline-block;
+}
+.mainNav ul li a {
+	text-decoration: none;
+	font-family: MydriadArabic, Arial;
+	font-size: 20px;
+	color:yellow;
+	list-style-type: none;
+	margin-left: 37px;
+}
+.mainNav ul li a:hover {
+	text-decoration: none;
+	color:white;
+	list-style-type: none;
+	margin-left: 37px;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;	
+}
+/*__________________MAIN______________*/
+.main {
+	position: relative;
+}
+.about {
+	width: 50%;
+	height: 220px;
+	background: white;
+	float: left;
+	line-height: 2.5em;
+}
+.greyAbout {
+	font-family: MydriadArabic, Arial;
+	font-size: 30px;
+	color: grey;
+	padding-top: 73px;
+	padding-left: 135px;
+}
+.sublime {
+	font-family: MydriadArabic, Arial;
+	font-size: 70px;
+	color: black;
+	padding-left: 135px;
+}
+.yellowSublime {
+	color: yellow;Sublime
+}
+.lorem {
+	width: 50%;
+	height: 220px;
+	background: white;
+	float: right;
+	border-left: 1px solid gray;
+	box-sizing: border-box;
+}
+.lorem1 {
+	font-family: MydriadArabic, Arial;
+	font-size: 17px;
+	color: black;
+	padding: 35px 5px 20px 20px;
+}
+.lorem2 {
+	font-family: MydriadArabic, Arial;
+	font-size: 12px;
+	color: gray;
+	padding: 0 5px 0px 20px;
+}
+/*__________________FOOTER______________*/
+.footer {
+	position: relative;
+	box-sizing: border-box;
+}
+.footer h1 {
+	font-family: MydriadArabic, Arial;
+	font-size: 16px;
+	color: black;
+	margin-top: 20px;
+}
+.footer p {
+	font-family: MydriadArabic, Arial;
+	font-size: 12px;
+	color: gray;
+	margin-top: 15px;
+}
+.app {
+	text-align: center;
+	width: 33.3333333333333%;
+	height: 320px;
+	background-color: white;
+	float: left;
+	padding: 60px 45px;
+	box-sizing: border-box;
+}
+.game {
+	text-align: center;
+	width: 33.3333333333333333%;
+	height: 320px;
+	background-color: white;
+	float: left;
+	padding: 60px 45px;
+	box-sizing: border-box;
+
+}
+.content {
+	text-align: center;
+	width: 33.3333333333333333%;
+	height: 320px;
+	background-color: white;
+	float: left;
+	padding: 60px 45px;
+	box-sizing: border-box;
+}
+.gamepad:hover {
+	transform: scale(1.1);
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+}
